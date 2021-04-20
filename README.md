@@ -18,6 +18,32 @@ Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
 
 - [postgresql](https://www.postgresql.org/)
 
+## Ecto
+
+Create the database
+
+```bash
+mix ecto.create
+```
+
+Delete the database
+
+```bash
+mix ecto.drop
+```
+
+Create the migration
+
+```bash
+mix ecto.gen.migration create_trainer_table
+```
+
+Perform the migrations
+
+```bash
+mix ecto.migrate
+```
+
 ## 🚀 Phoenix
 
 start the server
