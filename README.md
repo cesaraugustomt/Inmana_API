@@ -55,6 +55,7 @@ mix phx.server
 ## ✔️ Deps
 
 - [Credo](https://github.com/rrrene/credo)
+- [Bamboo](https://github.com/thoughtbot/bamboo)
 
 ---
 
