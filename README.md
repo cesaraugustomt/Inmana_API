@@ -1,20 +1,44 @@
-## 📝 Sobre o Projeto
+<p align="center"><img src="https://www.vectorlogo.zone/logos/elixir-lang/elixir-lang-ar21.svg"/></p>
+
+## 📝 About the Project
+
+<p aling="center">
+<img aling="center"  alt="Inmana-logo" src="./git/Inmana-logo.png">
+</p>
 
 O <strong>Inmana</strong> é uma API Rest para a prevenção de perdas com gerenciamento inteligente de data de validade.
 
 Essa é uma aplicação back-end construída na trilha de <strong>Elixir</strong> na <strong>Next Level Week</strong> evento que tem como objetivo criar projetos práticos distribuído pela [Rocketseat](https://rocketseat.com.br/).
 
-## ⤵ Comandos para começar
+## ⤵ Commands to start
 
-To start your Phoenix server:
+    --Open terminal--
 
-- Install dependencies with `mix deps.get`
-- Create and migrate your database with `mix ecto.setup`
-- Start Phoenix endpoint with `mix phx.server`
+    #Clone repo from github
+    git clone https://github.com/cesaraugustomt/Inmana_API.git
+
+    #Entry in Inmana folder
+    cd inmana
+
+    #Install deps
+    mix deps.get
+
+    #if your postgresql is installed correctly, type
+    #Create Database and migrations
+    mix ecto.setup
+
+    #Open interactive terminal
+    iex.bat -S mix
+
+    #Open Phoenix server
+    mix phx.server
+
+    #Exec test
+    mix test
 
 Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
 
-### Database used
+## 🐘 PostgresSQL
 
 - [postgresql](https://www.postgresql.org/)
 
@@ -44,7 +68,7 @@ Perform the migrations
 mix ecto.migrate
 ```
 
-## 🚀 Phoenix
+## 🐦 Phoenix
 
 start the server
 
@@ -54,12 +78,17 @@ mix phx.server
 
 ## ✔️ Deps
 
+- [Elixir](https://elixir-lang.org/)
+- [Phoenix Framework](https://www.phoenixframework.org/)
+- [Dotenv](https://github.com/avdi/dotenv_elixir)
+- [Bcrypt](https://github.com/riverrun/bcrypt_elixir)
+- [ExCoveralls](https://github.com/parroty/excoveralls)
 - [Credo](https://github.com/rrrene/credo)
 - [Bamboo](https://github.com/thoughtbot/bamboo)
 
 ---
 
-## 🔗 Links do projeto
+## 🔗 Project links
 
 ### Notion
 
